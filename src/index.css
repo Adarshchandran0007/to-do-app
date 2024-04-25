@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* App Component Styles */
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #5D647B;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* TaskInput Component Styles */
+.TaskInput {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.TaskInput input {
+  
+  padding: 10px;
+  width: 350px;
+  height: 25px;
+  font-size: 16px;
+  border: 2px solid #dddddd;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.TaskInput button {
+  padding: 10px 20px;
+  align-items: center;
+  background-color: #5D647B;
+  color: white;
+  height: 48px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.TaskInput button:hover {
+  background-color: #0a1231;
+}
+
+/* TaskList Component Styles */
+.TaskList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Task Component Styles */
+.tasks {
+  background: #e7ebf0;
+  margin-bottom: 8px;
+  padding: 15px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.3s ease;
+}
+
+.tasks:hover {
+  background: #dde1e7;
+}
+
+
+
